@@ -1,0 +1,269 @@
+#topWhiteBar {
+
+    Height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+.pageContainer {
+
+    width: 960px;
+    margin: auto;
+    min-height: 100%;
+
+}
+
+html,
+body {
+
+    height: 100%;
+    margin: 0;
+}
+
+body {
+
+    background-image: url("../images/prism.png");
+
+}
+
+#nameTag {
+
+    width: 250px;
+    height: 80px;
+    padding: 0 30px 0 30px;
+    background-color: #4aaaa5;
+    Float: left;
+    text-align: center;
+
+
+
+}
+
+#navName {
+
+    color: #ffffff
+}
+
+.navTag {
+
+    float: right;
+    Padding: 15px;
+    color: #777777;
+    position: relative;
+    top: 16px;
+
+}
+
+.navTag a {
+
+    color: #777777;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navTag a:hover {
+
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 110%;
+
+}
+
+.navLine {
+
+    border-right: solid 2px #bebebe;
+    height: 10px;
+    position: relative;
+    top: 36px;
+    float: right;
+
+
+}
+
+#mainContentContainer {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    padding: 20px 30px 20px 30px;
+
+}
+
+.horizontalLine {
+
+    border-top: solid 2px #bebebe;
+    width: 100%;
+    margin: auto;
+
+}
+
+#profilePic {
+
+    height: 200px;
+    float: left;
+    margin: 25px 30px 25px 0;
+
+}
+
+h1 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+
+}
+
+
+
+p {
+
+    line-height: 200%;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textInput1 {
+
+    width: 100%;
+
+}
+
+.textInput2 {
+
+    width: 100%;
+    height: 150px;
+
+}
+
+#submitButton {
+
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+
+}
+
+.imageContainer {
+
+    width: 300px;
+    height: 300px;
+    margin: 30px 30px 0 0;
+
+}
+
+.galleryImage {
+
+    width: 100%;
+
+
+}
+
+.imageText {
+
+    padding: 15px 0 15px 0;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.imagesColumn {
+
+    float: left;
+}
+
+.clearFloat {
+
+    clear: both;
+
+}
+
+#footerGreyBar {
+
+    background-color: #666666;
+    width: 100%;
+    height: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50%;
+    padding: 40px 0 5px 0;
+    border-top: 8px solid #4aaaa5;
+    margin-top: 50px;
+
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+
+    .pageContainer {
+
+        width: 960px;
+        margin: auto;
+        min-height: 100%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .pageContainer {
+
+        width: 690px;
+        margin: auto;
+        min-height: 100%;
+
+    }
+
+    .imagesColumn {
+
+        float: left;
+        width: 50%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .pageContainer {
+
+        width: 600px;
+        margin: auto;
+        min-height: 100%;
+
+    }
+
+    #profilePic {
+
+        width: 100%;
+        height: 100%;
+        float: none;
+        margin: 25px 30px 25px 0;
+
+    }
+
+    .imagesColumn {
+
+        float: none;
+        width: 100%;
+    }
+
+    .imageContainer {
+
+        width: 100%;
+        height: 540px;
+        margin: 30px 30px 0 0;
+
+    }
+
+}
