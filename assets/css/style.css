@@ -209,7 +209,7 @@ p {
 
     .pageContainer {
 
-        width: 960px;
+        width: 760px;
         margin: auto;
         min-height: 100%;
 
@@ -220,7 +220,7 @@ p {
 
     .pageContainer {
 
-        width: 690px;
+        width: 640px;
         margin: auto;
         min-height: 100%;
 
@@ -232,6 +232,13 @@ p {
         width: 50%;
     }
 
+    .imageContainer {
+
+        width: 280px;
+        height: 280px;
+        margin: 30px 30px 0 0;
+
+    }
 
 }
 
@@ -245,7 +252,6 @@ p {
         background-color: #4aaaa5;
         border-bottom: 60px solid #ffffff;
     }
-
 
     #nameTag {
 
@@ -265,12 +271,6 @@ p {
         top: -12px;
         right: 173px;
     }
-
-
-
-
-
-
 
     .pageContainer {
 
