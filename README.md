@@ -1,4 +1,4 @@
-# Responsice Portfolio
+# Responsive Portfolio
 
 ### About this Project
 
